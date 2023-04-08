@@ -1,3 +1,6 @@
+-- my custom stuff
+
+-- tutorial stuff
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
