@@ -49,3 +49,5 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- my custom stuff
+vim.keymap.set("n", "<leader>c", "gcc")
