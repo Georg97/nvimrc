@@ -1,4 +1,9 @@
 -- my custom stuff
+local home = os.getenv("HOME")
+if home == nul or home == ''
+then
+	home = os.getenv("USERPROFILE")
+end
 
 -- tutorial stuff
 vim.opt.nu = true
@@ -15,7 +20,8 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+-- vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+vim.opt.undodir = home .. "/.vim/undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
