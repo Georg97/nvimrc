@@ -1,6 +1,6 @@
 -- my custom stuff
 local home = os.getenv("HOME")
-if home == nul or home == ''
+if home == nil or home == ''
 then
 	home = os.getenv("USERPROFILE")
 end
