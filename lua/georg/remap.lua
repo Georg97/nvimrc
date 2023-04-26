@@ -50,4 +50,5 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 -- my custom stuff
-vim.keymap.set("n", "<leader>c", "gcc")
+vim.keymap.set("n", "<leader>c", "Vgc")
+
