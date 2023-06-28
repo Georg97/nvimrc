@@ -55,7 +55,7 @@ return require('packer').startup(function(use)
   }
   use('dcampos/nvim-snippy')
   use('gbprod/substitute.nvim')
-  use('jiangmiao/auto-pairs')
-  -- use('mg979/vim-visual-multi')
+-- use('jiangmiao/auto-pairs')
+	use('cohama/lexima.vim')
 
 end)
