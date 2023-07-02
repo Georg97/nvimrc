@@ -1,0 +1,10 @@
+{
+  "fucksnip": {
+    "body": [
+      "fick dich ins ${1:wohin_sollen_wir_uns_ficken} du {${2:wer_soll_sich_ficken}}"
+    ],
+    "key": "fucksnip",
+    "prefix": "fuckyou",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  }
+}
