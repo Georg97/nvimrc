@@ -20,3 +20,4 @@ Stuff to consider, when I update my config the next time
 - somehow optimize file management (maybe try something with ranger)
 - show bottom information line like (e.g. vscode, LazyVim)
 - get c# lsp to work properly
+- show next possible commands
