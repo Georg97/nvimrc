@@ -8,6 +8,9 @@ Stuff to consider, when I update my config the next time
 - lazy.vim instead of packer (does it really make sense)
 - lazygit instead of fugitive
 - luasnip with friendly-snippets and custom vscode-snippets (so i can copy them over)
+    - have vscode-style snippet support for global snippets
+    - have vscode-style snippet support for snippets in current directory
+    - try other snippet styles (not mandatory)
 - optimize Key-Bindings (merge with LazyVim + current ones)
     - <leader><leader> --> search
     - <leader><leader>/ --> grep in files
