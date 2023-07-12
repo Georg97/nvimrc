@@ -21,3 +21,5 @@ Stuff to consider, when I update my config the next time
 - show bottom information line like (e.g. vscode, LazyVim)
 - get c# lsp to work properly
 - show next possible commands
+- do not copy the deleted stuff after putting (eg yy -> p removes content of yank clipboard)
+- open file-view (<leader>pv) default in hierarchie mode (currently need to press 3x i)
