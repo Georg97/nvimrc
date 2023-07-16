@@ -17,6 +17,7 @@ Stuff to consider, when I update my config the next time
 - show bottom information line like (e.g. vscode, LazyVim)
 - get c# lsp to work properly
 - show next possible commands
+
 - ~~lazygit instead of fugitive~~
 - ~~optimize Key-Bindings (merge with LazyVim + current ones)~~
     - ~~<leader><leader> --> search~~
