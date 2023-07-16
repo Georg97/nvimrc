@@ -1,8 +1,16 @@
 -- my custom stuff
+local os_name = vim.loop.os_uname().sysname
+
 local home = os.getenv("HOME")
 if home == nil or home == ''
 then
 	home = os.getenv("USERPROFILE")
+end
+
+if os_name == "Linux" then
+    vim.o.clipboard = "unnamedplus"
+elseif os_name == "Darwin" or os_name == "Windows_NT" then
+    vim.o.clipboard = "unnamed"
 end
 
 -- tutorial stuff
@@ -36,3 +44,4 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "100"
+
