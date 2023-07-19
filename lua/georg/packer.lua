@@ -21,11 +21,10 @@ return require('packer').startup(function(use)
 	  end
   })
 
-  -- use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
+  use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
   use('nvim-lua/plenary.nvim')
   use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
-  -- use('tpope/vim-fugitive')
   use('kdheepak/lazygit.nvim')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
