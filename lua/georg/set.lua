@@ -13,6 +13,8 @@ elseif os_name == "Darwin" or os_name == "Windows_NT" then
     vim.o.clipboard = "unnamed"
 end
 
+vim.wo.cursorline = true
+
 -- tutorial stuff
 vim.opt.nu = true
 vim.opt.relativenumber = true
