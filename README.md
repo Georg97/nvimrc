@@ -1,4 +1,5 @@
 # nvimrc
+
 Custom nvimrc. Made with tutorial from ThePrimeagen
 
 ## TODO for next config updates/iterations
