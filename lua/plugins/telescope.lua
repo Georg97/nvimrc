@@ -1,4 +1,5 @@
--- Bootstrap
+-- require("util.plugins.telescope-bootstrap")
+
 return {
   {
       "nvim-telescope/telescope.nvim",
