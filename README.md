@@ -1,8 +1,30 @@
 # nvimrc
 
-Custom nvimrc. Made with tutorial from ThePrimeagen
+Starting Config from Scratch on this branch.
 
-## TODO for next config updates/iterations
+## New Considerations
+
+- [] lazy.vim, because: want to setup myself without "cheating by looking at old config" and: potential performance gain and: learn alternative to packer, to deepen knowledge of nvim ecosystem
+- [] KISS, only install plugin when the need really comes up during active development
+- [] Better config management (dotfile management in general) for easier reproducability
+- [] bootstrapping process, to make installation on a new system as easy as possible
+- [] manually setup lsp at least once (without mason, lsp-zero etc.). This is to learn how an lsp installation works
+
+### Features
+
+- [] lazy.vim package manager
+- [] support for go development
+- [] lsp support
+- [] "vscode mode" which helps using vscode with nvim plugin
+    - [] switch between file content and console
+    - [] sequential number support
+    - [] <leader><leader> to open f1-menu (to act like telescope)
+    - [] <leader>gg to open lazygit
+
+---
+
+## From old config
+### TODO for next config updates/iterations
 
 Stuff to consider, when I update my config the next time
 
