@@ -5,6 +5,7 @@ vim.g.maplocalleader = "\\"
 -- print config
 vim.keymap.set("n", "<leader>getc", ":echo stdpath('config')")
 
-vim.keymap.set("n", "<leader><leader>", ":vnew | r!find . -regex .+.+<Left><Left>")
-vim.keymap.set("n", "<leader>o", "yy:<C-u>e <C-r>\"", {noremap = true})
+-- archaic telescope
+-- vim.keymap.set("n", "<leader><leader>", ":vnew | r!find . -regex .+.+<Left><Left>")
+-- vim.keymap.set("n", "<leader>o", "yy:<C-u>e <C-r>\"", {noremap = true})
 

@@ -24,6 +24,7 @@ user experience, which makes me productive, while removing a lot of clutter from
 ### Features
 
 - [x] lazy.vim package manager
+- [x] telescope
 - [] support for go development
 - [] lsp support
 - [] "vscode mode" which helps using vscode with nvim plugin
