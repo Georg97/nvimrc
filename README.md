@@ -2,13 +2,24 @@
 
 Starting Config from Scratch on this branch.
 
-## New Considerations
+## Goals
+
+The goal is to become articulate with configuring nvim and have a simple, custom-streamlined
+user experience, which makes me productive, while removing a lot of clutter from my editor.
+
+### New Considerations
 
 - [] lazy.vim, because: want to setup myself without "cheating by looking at old config" and: potential performance gain and: learn alternative to packer, to deepen knowledge of nvim ecosystem
 - [] KISS, only install plugin when the need really comes up during active development
 - [] Better config management (dotfile management in general) for easier reproducability
 - [] bootstrapping process, to make installation on a new system as easy as possible
 - [] manually setup lsp at least once (without mason, lsp-zero etc.). This is to learn how an lsp installation works
+
+#### learned so far
+
+- you can navigate project with "find". But this probably won't work on windows
+- Starting an LSP is easy, but configuring it is a "pain in the ass", since there are tons of options and considerations to take into account (file matching, continuously checking the lsp for updates for autocomplete etc)
+- packer is not maintained anymore, which makes lazy.vim a sane choice rn. But also makes one think, how stable it will be, if it is basically maintained by only one person
 
 ### Features
 
